@@ -1,0 +1,67 @@
+prm-explore-main .header {
+  // Fixed the order of the fixed top bar
+  z-index: 30;
+
+  prm-logo .product-logo {
+    padding: .3em;
+  }
+  prm-topbar {
+    prm-main-menu {
+      span.item-content {
+        color: white;
+      }
+    }
+    .top-nav-bar {
+      background-color: $top-nav-bar-color;
+    }
+    prm-search-bookmark-filter a {
+      background-color: rgba(255, 255, 255, 0.2) !important;
+    }
+    #fixed-buttons-holder.fixed-to-top a, #back-to-top-button {
+      background-color: rgba(0, 0, 0, 0.2) !important;
+    }
+    /*START: Hovered topbar */
+    prm-user-area md-fab-toolbar {
+      &.md-is-open md-fab-trigger,
+      .md-fab-action-item {
+        .md-fab-toolbar-background,
+        ._md-fab-toolbar-background,
+        md-input-container,
+        md-input-container md-select {
+          background-color: #d0d0d0 !important;
+        }
+      }
+
+      .md-fab-action-item md-input-container {
+        &, &:hover:not([disabled]) {
+          &, md-select {
+            color: $topbar-text-color;
+          }
+        }
+
+        &:hover:not([disabled]) {
+          background-color: $topbar-button-background-color;
+        }
+      }
+
+    }
+    .md-fab-action-item {
+      .md-button.button-with-icon, .md-button.button-with-icon > prm-icon {
+        color: rgba(0, 0, 0, 0.65) !important;
+      }
+      /*END: Hovered topbar */
+    }
+  }
+  prm-search-bar {
+    .search-element-inner {
+      // Fixed search-bar's shadow in ie
+      box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1), 0 3px 10px 0 rgba(0, 0, 0, 0.09) !important;
+    }
+    background-color: $search-bar-background-color;
+    .search-switch-buttons {
+      .md-button.switch-to-advanced, .md-button.switch-to-simple {
+        color: #45AAB4;
+      }
+    }
+  }
+}

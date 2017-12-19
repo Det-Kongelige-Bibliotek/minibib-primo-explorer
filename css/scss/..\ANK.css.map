@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,IAAK;EACH,gBAAgB,EAAE,KAAK;EACvB,WAAW,EAAE,oBAAoB",
+"sources": ["_general.scss"],
+"names": [],
+"file": "..%5CANK.css"
+}

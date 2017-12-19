@@ -1,0 +1,13 @@
+@import 'https://fonts.googleapis.com/css?family=Roboto';
+
+body {
+  background-color: #f2f2f2;
+  font-family: 'Roboto', sans-serif;
+}
+.md-button.button-confirm, .service-form-static-panel button.button-confirm prm-icon+span, .service-form-static-panel button.button-confirm prm-icon svg path {
+  color: $icon-color;
+}
+
+prm-logo div.product-logo-local {
+  display: flex;
+}
