@@ -67,9 +67,6 @@ prm-search-bar {
   .sidebar-inner-wrapper:empty {
     display: none; }
 
-.sidebar-inner-wrapper:empty {
-  display: none; }
-
 .results-container .list-item-wrapper {
   padding: 30px;
   margin-bottom: 10px;
