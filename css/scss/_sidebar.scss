@@ -17,4 +17,11 @@
     }
     color: red;
   }
+
+  &:empty {
+    display: none;
+  }
+}
+.sidebar-inner-wrapper:empty {
+  display: none;
 }

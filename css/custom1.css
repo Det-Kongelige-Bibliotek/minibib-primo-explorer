@@ -1,5 +1,5 @@
 @import "https://fonts.googleapis.com/css?family=Roboto";
-body {
+body, html {
   background-color: #f2f2f2;
   font-family: 'Roboto', sans-serif; }
 
@@ -9,43 +9,46 @@ body {
 prm-logo div.product-logo-local {
   display: flex; }
 
-prm-explore-main .header {
+.header {
   z-index: 30; }
-  prm-explore-main .header prm-logo .product-logo {
-    padding: .3em; }
-  prm-explore-main .header prm-topbar {
-    /*START: Hovered topbar */ }
-    prm-explore-main .header prm-topbar prm-main-menu span.item-content {
-      color: white; }
-    prm-explore-main .header prm-topbar .top-nav-bar {
-      background-color: #666666; }
-    prm-explore-main .header prm-topbar prm-search-bookmark-filter a {
-      background-color: rgba(255, 255, 255, 0.2) !important; }
-    prm-explore-main .header prm-topbar #fixed-buttons-holder.fixed-to-top a, prm-explore-main .header prm-topbar #back-to-top-button {
-      background-color: rgba(0, 0, 0, 0.2) !important; }
-    prm-explore-main .header prm-topbar prm-user-area md-fab-toolbar.md-is-open md-fab-trigger .md-fab-toolbar-background,
-    prm-explore-main .header prm-topbar prm-user-area md-fab-toolbar.md-is-open md-fab-trigger ._md-fab-toolbar-background,
-    prm-explore-main .header prm-topbar prm-user-area md-fab-toolbar.md-is-open md-fab-trigger md-input-container,
-    prm-explore-main .header prm-topbar prm-user-area md-fab-toolbar.md-is-open md-fab-trigger md-input-container md-select,
-    prm-explore-main .header prm-topbar prm-user-area md-fab-toolbar .md-fab-action-item .md-fab-toolbar-background,
-    prm-explore-main .header prm-topbar prm-user-area md-fab-toolbar .md-fab-action-item ._md-fab-toolbar-background,
-    prm-explore-main .header prm-topbar prm-user-area md-fab-toolbar .md-fab-action-item md-input-container,
-    prm-explore-main .header prm-topbar prm-user-area md-fab-toolbar .md-fab-action-item md-input-container md-select {
-      background-color: #d0d0d0 !important; }
-    prm-explore-main .header prm-topbar prm-user-area md-fab-toolbar .md-fab-action-item md-input-container, prm-explore-main .header prm-topbar prm-user-area md-fab-toolbar .md-fab-action-item md-input-container md-select, prm-explore-main .header prm-topbar prm-user-area md-fab-toolbar .md-fab-action-item md-input-container:hover:not([disabled]), prm-explore-main .header prm-topbar prm-user-area md-fab-toolbar .md-fab-action-item md-input-container:hover:not([disabled]) md-select {
-      color: rgba(0, 0, 0, 0.65); }
-    prm-explore-main .header prm-topbar prm-user-area md-fab-toolbar .md-fab-action-item md-input-container:hover:not([disabled]) {
-      background-color: #E7E7E7; }
-    prm-explore-main .header prm-topbar .md-fab-action-item {
-      /*END: Hovered topbar */ }
-      prm-explore-main .header prm-topbar .md-fab-action-item .md-button.button-with-icon, prm-explore-main .header prm-topbar .md-fab-action-item .md-button.button-with-icon > prm-icon {
-        color: rgba(0, 0, 0, 0.65) !important; }
-  prm-explore-main .header prm-search-bar {
-    background-color: white; }
-    prm-explore-main .header prm-search-bar .search-element-inner {
-      box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1), 0 3px 10px 0 rgba(0, 0, 0, 0.09) !important; }
-    prm-explore-main .header prm-search-bar .search-switch-buttons .md-button.switch-to-advanced, prm-explore-main .header prm-search-bar .search-switch-buttons .md-button.switch-to-simple {
-      color: #45AAB4; }
+
+prm-logo .product-logo {
+  padding: .3em; }
+
+prm-topbar {
+  /*START: Hovered topbar */ }
+  prm-topbar prm-main-menu span.item-content {
+    color: white; }
+  prm-topbar .top-nav-bar {
+    background-color: #666666 !important; }
+  prm-topbar prm-search-bookmark-filter a {
+    background-color: rgba(255, 255, 255, 0.2) !important; }
+  prm-topbar #fixed-buttons-holder.fixed-to-top a, prm-topbar #back-to-top-button {
+    background-color: rgba(0, 0, 0, 0.2) !important; }
+  prm-topbar prm-user-area md-fab-toolbar.md-is-open md-fab-trigger .md-fab-toolbar-background,
+  prm-topbar prm-user-area md-fab-toolbar.md-is-open md-fab-trigger ._md-fab-toolbar-background,
+  prm-topbar prm-user-area md-fab-toolbar.md-is-open md-fab-trigger md-input-container,
+  prm-topbar prm-user-area md-fab-toolbar.md-is-open md-fab-trigger md-input-container md-select,
+  prm-topbar prm-user-area md-fab-toolbar .md-fab-action-item .md-fab-toolbar-background,
+  prm-topbar prm-user-area md-fab-toolbar .md-fab-action-item ._md-fab-toolbar-background,
+  prm-topbar prm-user-area md-fab-toolbar .md-fab-action-item md-input-container,
+  prm-topbar prm-user-area md-fab-toolbar .md-fab-action-item md-input-container md-select {
+    background-color: #d0d0d0 !important; }
+  prm-topbar prm-user-area md-fab-toolbar .md-fab-action-item md-input-container, prm-topbar prm-user-area md-fab-toolbar .md-fab-action-item md-input-container md-select, prm-topbar prm-user-area md-fab-toolbar .md-fab-action-item md-input-container:hover:not([disabled]), prm-topbar prm-user-area md-fab-toolbar .md-fab-action-item md-input-container:hover:not([disabled]) md-select {
+    color: rgba(0, 0, 0, 0.65); }
+  prm-topbar prm-user-area md-fab-toolbar .md-fab-action-item md-input-container:hover:not([disabled]) {
+    background-color: #E7E7E7; }
+  prm-topbar .md-fab-action-item {
+    /*END: Hovered topbar */ }
+    prm-topbar .md-fab-action-item .md-button.button-with-icon, prm-topbar .md-fab-action-item .md-button.button-with-icon > prm-icon {
+      color: rgba(0, 0, 0, 0.65) !important; }
+
+prm-search-bar {
+  background-color: white; }
+  prm-search-bar .search-element-inner {
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1), 0 3px 10px 0 rgba(0, 0, 0, 0.09) !important; }
+  prm-search-bar .search-switch-buttons .md-button.switch-to-advanced, prm-search-bar .search-switch-buttons .md-button.switch-to-simple {
+    color: #45AAB4; }
 
 .sidebar-inner-wrapper {
   border: 1px solid #ddd;
@@ -61,6 +64,11 @@ prm-explore-main .header {
   .sidebar-inner-wrapper prm-breadcrumbs .md-chip {
     border: 1px solid red;
     color: red; }
+  .sidebar-inner-wrapper:empty {
+    display: none; }
+
+.sidebar-inner-wrapper:empty {
+  display: none; }
 
 .results-container .list-item-wrapper {
   padding: 30px;
