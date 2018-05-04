@@ -7,7 +7,6 @@
 
 (function () {
   'use strict';
-console.log('xxxx');
   angular.module('angularLoadMonkeyPatched', [])
     .service('angularLoadMonkeyPatched', ['$document', '$q', '$timeout', function ($document, $q, $timeout) {
       var document = $document[0];
