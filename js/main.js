@@ -16,7 +16,7 @@ import { AnnouncementService } from './announcement.service';
 
 // import { PrmFinesAfterConfig } from './prmFinesAfter.component';
 // import { PrmLogoAfterConfig } from './prmLogoAfter.component';
-// import { PrmTopbarAfterConfig } from './prmTopbarAfter.component';
+ import { PrmTopbarAfterConfig } from './prmTopbarAfter.component';
 // import { PrmSearchBarAfterConfig } from './prmSearchBarAfter.component';
 // import { PrmFullViewAfterConfig } from './prmFullViewAfter.component';
 // import { PrmPersonalInfoAfterConfig } from './prmPersonalInfoAfter.component';
@@ -58,7 +58,7 @@ angular.module('viewCustom')
 // //  .component(ChatBoxConfig.name, ChatBoxConfig.config)
 //   .component(PrmFinesAfterConfig.name, PrmFinesAfterConfig.config)
 //   .component(PrmLogoAfterConfig.name, PrmLogoAfterConfig.config)
-//   .component(PrmTopbarAfterConfig.name, PrmTopbarAfterConfig.config)
+   .component(PrmTopbarAfterConfig.name, PrmTopbarAfterConfig.config)
 //   .component(PrmSearchBarAfterConfig.name, PrmSearchBarAfterConfig.config)
 //   .component(PrmFullViewAfterConfig.name, PrmFullViewAfterConfig.config)
 //   .component(PrmPersonalInfoAfterConfig.name, PrmPersonalInfoAfterConfig.config)
