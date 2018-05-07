@@ -9,6 +9,11 @@ body, html {
 prm-logo div.product-logo-local {
   display: flex; }
 
+.request-button {
+  color: #fff;
+  background-color: #45AAB4;
+  border-color: #45AAB4; }
+
 .header {
   z-index: 30; }
 
